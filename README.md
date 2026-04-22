@@ -56,11 +56,5 @@ getpath = ('/').join(getpath.split('\\'))
 - python版本
 python3.6或python3.7 版本太高容易出问题
 
-- 本地项目更新到github
-```
-git add . 所有变动文件，工作区->待提交区
-git cmmint -m "注释"
-git pull origin master 从远程仓库拉去代码到本地仓库以防止产生冲突
-git push origin master 从本地仓库推送代码到远程服务器
-git push -f origin master 强推
-```
+## 其他内容
+增加了课程推荐模块
