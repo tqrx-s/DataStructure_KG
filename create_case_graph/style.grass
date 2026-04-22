@@ -1,0 +1,363 @@
+node {
+  diameter: 50px;
+  color: #ECB5C9;
+  border-color: #da7298;
+  border-width: 2px;
+  text-color-internal: #2A2C34;
+  font-size: 10px;
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 10px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.* {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+}
+node.Status {
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.Person {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.Movie {
+  caption: "{title}";
+}
+node.案例名称 {
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+  diameter: 80px;
+}
+node.时间 {
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+  diameter: 80px;
+}
+node.地点 {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.学生行为1 {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.学生行为2 {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.老师行为 {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.课堂检测分数 {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.知识点 {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.学生行为 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+}
+node.建议 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+}
+node.教师行为 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+}
+node.Chunk {
+  defaultCaption: "<id>";
+  caption: "{fileName}";
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+}
+node.Concept {
+  defaultCaption: "<id>";
+  caption: "{description}";
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+}
+node.Document {
+  defaultCaption: "<id>";
+  caption: "{fileName}";
+}
+node.Entity {
+  defaultCaption: "<id>";
+  caption: "{description}";
+}
+node.Event {
+  defaultCaption: "<id>";
+  caption: "{description}";
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+}
+node.Organization {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.课程 {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.专业 {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.年级 {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.学生 {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.班级 {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.概念 {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Session {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Message {
+  defaultCaption: "<id>";
+  caption: "{type}";
+}
+node.Knowledge base {
+  defaultCaption: "<id>";
+  caption: "{description}";
+}
+node.Source {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Service {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Project {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Publication {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Technology {
+  defaultCaption: "<id>";
+  caption: "{description}";
+}
+node.Location {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Process {
+  defaultCaption: "<id>";
+  caption: "{description}";
+}
+node.Feature {
+  defaultCaption: "<id>";
+  caption: "{description}";
+}
+node.Website {
+  defaultCaption: "<id>";
+  caption: "{description}";
+}
+node.Time {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+}
+node.Action {
+  defaultCaption: "<id>";
+  caption: "{id}";
+}
+node.Behavior {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+}
+node.Studentbehavior {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+}
+node.Teacherbehavior {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+}
+node.Classroomscore {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+}
+node.Activity {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+}
+node.Score {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #2A2C34;
+}
+node.Number {
+  defaultCaption: "<id>";
+  caption: "{id}";
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+}
+node.数据 {
+  defaultCaption: "<id>";
+  caption: "{二级概念}";
+}
+node.二级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+}
+node.三级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+}
+node.一级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+}
+node.四级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #2A2C34;
+}
+node.五级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+}
+node.六级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+}
+node.七级概念 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.条件 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.非常熟悉 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.比较熟悉 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #2A2C34;
+}
+node.大致了解 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+}
+node.有点不熟悉 {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+}

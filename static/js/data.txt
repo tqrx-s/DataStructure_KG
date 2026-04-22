@@ -1,0 +1,28 @@
+Character: 老师, Action: 123, Relation: 123, Level: 一级概念
+Character: 学生, Action: 123, Relation: 123, Level: 二级概念
+Character: 老师, Action: 123, Relation: 123, Level: 二级概念
+Character: 老师, Action: 123, Relation: 123, Level: 一级概念
+Character: , Action: , Relation: , Level: 
+Character: , Action: , Relation: , Level: 
+Character: 老师, Action: 123, Relation: 123, Level: 二级概念
+Character: 老师, Action: 31, Relation: 31, Level: 二级概念
+Character: 老师, Action: 321, Relation: 321, Level: 二级概念
+Character: 老师, Action: 321, Relation: 321, Level: 二级概念
+Character: 老师, Action: 123, Relation: 123, Level: 一级概念
+Character: 老师, Action: 321, Relation: 321, Level: 二级概念
+Character: 老师, Action: 321, Relation: 321, Level: 二级概念
+Character: 学生, Action: 321, Relation: 321, Level: 一级概念
+Character: 学生, Action: 321, Relation: 321, Level: 二级概念
+Character: undefined, Action: undefined, Relation: undefined, Level: undefined
+Character: undefined, Action: undefined, Relation: undefined, Level: undefined
+Character: undefined, Action: undefined, Relation: undefined, Level: undefined
+Character: undefined, Action: undefined, Relation: undefined, Level: undefined
+Character: 老师, Action: 4124, Relation: 1241, Level: 二级概念
+Character: 老师, Action: 321, Relation: 321, Level: 二级概念
+Character: 学生, Action: 321, Relation: 321, Level: 一级概念
+Character: 学生, Action: 123, Relation: 321, Level: 二级概念
+Character: 老师, Action: 123, Relation: 321, Level: 二级概念
+Character: 老师, Action: 123, Relation: 321, Level: 二级概念
+Character: 学生, Action: 123, Relation: 321, Level: 一级概念
+Character: 老师, Action: 234, Relation: 324, Level: 一级概念
+Character: 老师, Action: 123, Relation: 321, Level: 二级概念
